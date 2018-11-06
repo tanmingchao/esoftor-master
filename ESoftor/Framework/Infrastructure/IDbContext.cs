@@ -6,6 +6,9 @@
 //  <last-date>%time%</last-date>
 // -----------------------------------------------------------------------
 
+using System.Threading;
+using System.Threading.Tasks;
+
 namespace ESoftor.Framework.Infrastructure
 {
     /// <summary>
@@ -13,5 +16,7 @@ namespace ESoftor.Framework.Infrastructure
     /// </summary>
     public interface IDbContext
     {
+        int SaveChanges();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken));
     }
 }

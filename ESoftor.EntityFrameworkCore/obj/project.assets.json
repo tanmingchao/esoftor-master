@@ -1142,6 +1142,7 @@
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Microsoft.Extensions.DependencyModel": "2.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
           "newtonsoft.json": "11.0.2"
         },
         "compile": {
@@ -4317,23 +4318,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\m1835\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORKSPACE\\CSHARP_CORE\\eSoftor\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj",
+      "projectUniqueName": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj",
       "projectName": "ESoftor.EntityFrameworkCore",
-      "projectPath": "D:\\WORKSPACE\\CSHARP_CORE\\eSoftor\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\WORKSPACE\\CSHARP_CORE\\eSoftor\\ESoftor.EntityFrameworkCore\\obj\\",
+      "projectPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj",
+      "packagesPath": "C:\\Users\\m1835\\.nuget\\packages\\",
+      "outputPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.EntityFrameworkCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\m1835\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4346,8 +4347,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\WORKSPACE\\CSHARP_CORE\\eSoftor\\ESoftor\\ESoftor.csproj": {
-              "projectPath": "D:\\WORKSPACE\\CSHARP_CORE\\eSoftor\\ESoftor\\ESoftor.csproj"
+            "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor\\ESoftor.csproj": {
+              "projectPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor\\ESoftor.csproj"
             }
           }
         }

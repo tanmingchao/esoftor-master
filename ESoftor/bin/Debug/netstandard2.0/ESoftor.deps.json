@@ -17,6 +17,7 @@
           "Microsoft.Extensions.DependencyModel": "2.1.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "11.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1.0",
           "Microsoft.Extensions.Options": "2.1.1.0",
           "System.ComponentModel.Annotations": "4.2.0.0"
         },
@@ -532,6 +533,14 @@
           "System.Runtime": "4.1.0"
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1.0": {
+        "runtime": {
+          "Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
       "Microsoft.Extensions.Options/2.1.1.0": {
         "runtime": {
           "Microsoft.Extensions.Options.dll": {
@@ -898,6 +907,11 @@
       "sha512": "sha512-k1S4Gc6IGwtHGT8188RSeGaX86Qw/wnrgNLshJvsdNUOPP9etMmo8S07c+UlOAx4K/xLuN9ivA1bD0LVurtIxQ==",
       "path": "system.threading.tasks/4.0.11",
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.Extensions.Options/2.1.1.0": {
       "type": "reference",
