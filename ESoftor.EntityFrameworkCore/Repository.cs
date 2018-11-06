@@ -7,6 +7,7 @@
 // -----------------------------------------------------------------------
 
 using ESoftor.Framework.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,20 +20,33 @@ namespace ESoftor.EntityFrameworkCore
     public class Repository<TEntity, TKey> : IRepository<TEntity, TKey>
         where TEntity : class, IEntity<TKey>
     {
+        #region ctor
+        public Repository(IUnitOfWork unitOfWork)
+        {
+            _dbContext = unitOfWork.GetDbContext as DbContext;
+            _dbSet = _dbContext.Set<TEntity>();
+        }
+        #endregion
+
+        #region fields
+        private readonly DbSet<TEntity> _dbSet;
+        private readonly DbContext _dbContext;
+        #endregion
+
         #region query
         public TEntity GetByKey(TKey key)
         {
-            throw new NotImplementedException();
+            return _dbSet.Find(key);
         }
 
-        public Task<TEntity> GetByKeyAsync(TKey key)
+        public async Task<TEntity> GetByKeyAsync(TKey key)
         {
-            throw new NotImplementedException();
+            return await _dbSet.FindAsync(key);
         }
 
         public IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> expression)
         {
-            throw new NotImplementedException();
+            return _dbSet.Where(expression);
         }
 
         #endregion
@@ -40,22 +54,22 @@ namespace ESoftor.EntityFrameworkCore
         #region insert
         public void Insert(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Add(entity);
         }
 
         public void Insert(IEnumerable<TEntity> entities)
         {
-            throw new NotImplementedException();
+            _dbSet.AddRange(entities);
         }
 
-        public Task InsertAsync(TEntity entity)
+        public async Task InsertAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            await _dbSet.AddAsync(entity);
         }
 
-        public Task InsertAsync(IEnumerable<TEntity> entities)
+        public async Task InsertAsync(IEnumerable<TEntity> entities)
         {
-            throw new NotImplementedException();
+            await _dbSet.AddRangeAsync(entities);
         }
 
         #endregion
@@ -63,22 +77,13 @@ namespace ESoftor.EntityFrameworkCore
         #region update
         public void Remove(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Remove(entity);
         }
 
         public void Remove(Expression<Func<TEntity, bool>> expression)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task RemoveAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task RemoveAsync(Expression<Func<TEntity, bool>> expression)
-        {
-            throw new NotImplementedException();
+            var entities = _dbSet.AsNoTracking().Where(expression).ToList();
+            _dbSet.RemoveRange(entities);
         }
 
         #endregion
@@ -86,22 +91,12 @@ namespace ESoftor.EntityFrameworkCore
         #region remove
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+            _dbSet.Update(entity);
         }
 
         public void Update(IEnumerable<TEntity> entities)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAsync(TEntity entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAsync(IEnumerable<TEntity> entities)
-        {
-            throw new NotImplementedException();
+            _dbSet.UpdateRange(entities);
         }
 
         #endregion

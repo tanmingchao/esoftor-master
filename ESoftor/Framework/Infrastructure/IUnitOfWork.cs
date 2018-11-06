@@ -16,10 +16,9 @@ namespace ESoftor.Framework.Infrastructure
     /// </summary>
     public interface IUnitOfWork : IDisposable
     {
+        IDbContext GetDbContext { get; }
         IRepository<TEntity, TKey> Repository<TEntity, TKey>() where TEntity : class, IEntity<TKey>;
-
         void BeginTransaction();
-
         int Commit();
         Task<int> CommitAsync();
     }

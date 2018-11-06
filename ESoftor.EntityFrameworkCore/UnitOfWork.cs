@@ -38,13 +38,15 @@ namespace ESoftor.EntityFrameworkCore
         /// <summary>
         ///     上下文对象，UOW内部初始化上下文对象，供当前scope内的操作使用，保证同一上下文
         /// </summary>
-        public DbContext DbContext => GetDbContext();
+        private DbContext DbContext { get; set; }
         #endregion
 
         #region ctor
         public UnitOfWork(IServiceProvider provider)
         {
             _provider = provider;
+            if (DbContext == null)
+                DbContext = GetDbContext as DbContext;
         }
         #endregion
 
@@ -110,26 +112,35 @@ namespace ESoftor.EntityFrameworkCore
             return await Task.FromResult(result);
         }
 
+        public IDbContext GetDbContext
+        {
+            get
+            {
+                if (DbContext == null)
+                {
+                    var options = _provider.ESoftorOption();
+
+                    IDbContextOptionsBuilderCreator builderCreator = _provider.GetServices<IDbContextOptionsBuilderCreator>()
+                        .FirstOrDefault(d => d.DatabaseType == options.ESoftorDbOption.DatabaseType);
+
+                    if (builderCreator == null)
+                        throw new Exception($"无法解析数据库类型为：{options.ESoftorDbOption.DatabaseType}的{typeof(IDbContextOptionsBuilderCreator).Name}实例");
+                    //DbContextOptionsBuilder
+                    var optionsBuilder = builderCreator.Create(options.ESoftorDbOption.ConnectString, null);//TODO null可以换成缓存中获取connection对象，以便性能的提升
+
+                    if (!(ActivatorUtilities.CreateInstance(_provider, options.ESoftorDbOption.DbContextType, optionsBuilder.Options) is DbContext dbContext))
+                        throw new Exception($"上下文对象 “{options.ESoftorDbOption.DbContextType.AssemblyQualifiedName}” 实例化失败，请确认配置文件已正确配置。 ");
+
+                    DbContext = dbContext as DbContext;
+                }
+
+                return DbContext as IDbContext;
+            }
+        }
+
         #endregion
 
         #region private
-        private DbContext GetDbContext()
-        {
-            var options = _provider.ESoftorOption();
-
-            IDbContextOptionsBuilderCreator builderCreator = _provider.GetServices<IDbContextOptionsBuilderCreator>()
-                .FirstOrDefault(d => d.DatabaseType == options.ESoftorDbOption.DatabaseType);
-
-            if (builderCreator == null)
-                throw new Exception($"无法解析数据库类型为：{options.ESoftorDbOption.DatabaseType}的{typeof(IDbContextOptionsBuilderCreator).Name}实例");
-            //DbContextOptionsBuilder
-            var optionsBuilder = builderCreator.Create(options.ESoftorDbOption.ConnectString, null);//TODO null可以换成缓存中获取connection对象，以便性能的提升
-
-            if (!(ActivatorUtilities.CreateInstance(_provider, options.ESoftorDbOption.DbContextType, optionsBuilder.Options) is DbContext dbContext))
-                throw new Exception($"上下文对象 “{options.ESoftorDbOption.DbContextType.AssemblyQualifiedName}” 实例化失败，请确认配置文件已正确配置。 ");
-
-            return dbContext;
-        }
 
         /// <summary>
         ///     操作失败，还原跟踪状态

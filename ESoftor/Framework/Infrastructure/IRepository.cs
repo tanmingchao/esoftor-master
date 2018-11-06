@@ -34,15 +34,13 @@ namespace ESoftor.Framework.Infrastructure
         #region Update
         void Update(TEntity entity);
         void Update(IEnumerable<TEntity> entities);
-        Task UpdateAsync(TEntity entity);
-        Task UpdateAsync(IEnumerable<TEntity> entities);
+
         #endregion
 
         #region Remove
         void Remove(TEntity entity);
         void Remove(Expression<Func<TEntity, bool>> expression);
-        Task RemoveAsync(TEntity entity);
-        Task RemoveAsync(Expression<Func<TEntity, bool>> expression);
+        
         #endregion
 
     }
