@@ -1,0 +1,9 @@
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.deps.json
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.dll
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.AssemblyInfo.cs
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.dll
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\WORKSPACE\CSHARP_CORE\eSoftor\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csprojAssemblyReference.cache

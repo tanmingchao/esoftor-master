@@ -1,0 +1,17 @@
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.WebApi.deps.json
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.WebApi.runtimeconfig.json
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.WebApi.runtimeconfig.dev.json
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.WebApi.dll
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.WebApi.pdb
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.csprojAssemblyReference.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.RazorAssemblyInfo.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.RazorAssemblyInfo.cs
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.AssemblyInfoInputs.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.AssemblyInfo.cs
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.RazorTargetAssemblyInfo.cache
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.dll
+D:\WORKSPACE\CSHARP_CORE\ESoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.pdb
+D:\WORKSPACE\CSHARP_CORE\eSoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.dll
+D:\WORKSPACE\CSHARP_CORE\eSoftor\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.pdb
+D:\WORKSPACE\CSHARP_CORE\eSoftor\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.csproj.CopyComplete

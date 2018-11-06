@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESoftor.WebApi", "ESoftor.WebApi\ESoftor.WebApi.csproj", "{1BE7FBC7-D3EC-438D-9894-EEF85E9023E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infrastructure", "1.Infrastructure", "{18AB3A75-5FD1-4429-BB88-4D6F984E4D41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Framework.DbFactory", "2.Framework.DbFactory", "{BE845B3E-847E-4F77-BC65-A1719B5F6E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Projects", "3.Projects", "{AEF18D19-0CD4-4356-ADD8-08F43E35EB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESoftor", "ESoftor\ESoftor.csproj", "{08248A7D-EEA3-4FD4-83A7-25AAF90DA431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESoftor.EntityFrameworkCore", "ESoftor.EntityFrameworkCore\ESoftor.EntityFrameworkCore.csproj", "{634D83D5-D7D9-49DC-A153-1BA3ED33070D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE7FBC7-D3EC-438D-9894-EEF85E9023E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE7FBC7-D3EC-438D-9894-EEF85E9023E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE7FBC7-D3EC-438D-9894-EEF85E9023E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE7FBC7-D3EC-438D-9894-EEF85E9023E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08248A7D-EEA3-4FD4-83A7-25AAF90DA431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08248A7D-EEA3-4FD4-83A7-25AAF90DA431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08248A7D-EEA3-4FD4-83A7-25AAF90DA431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08248A7D-EEA3-4FD4-83A7-25AAF90DA431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634D83D5-D7D9-49DC-A153-1BA3ED33070D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634D83D5-D7D9-49DC-A153-1BA3ED33070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634D83D5-D7D9-49DC-A153-1BA3ED33070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634D83D5-D7D9-49DC-A153-1BA3ED33070D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08248A7D-EEA3-4FD4-83A7-25AAF90DA431} = {18AB3A75-5FD1-4429-BB88-4D6F984E4D41}
+		{634D83D5-D7D9-49DC-A153-1BA3ED33070D} = {18AB3A75-5FD1-4429-BB88-4D6F984E4D41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB048828-DF83-45AB-943F-330B891075BB}
+	EndGlobalSection
+EndGlobal
