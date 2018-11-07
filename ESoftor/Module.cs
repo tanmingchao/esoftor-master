@@ -12,6 +12,7 @@ using ESoftor.Framework.Module;
 using ESoftor.Framework.Options;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using System;
 
 namespace ESoftor
 {

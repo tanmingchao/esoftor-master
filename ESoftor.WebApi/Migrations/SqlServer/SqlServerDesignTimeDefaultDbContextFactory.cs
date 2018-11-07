@@ -18,6 +18,10 @@ namespace ESoftor.WebApi.Migrations.SqlServer
 {
     public class SqlServerDesignTimeDefaultDbContextFactory : DesignTimeDbContextFactoryBase<NovelDbContext>
     {
+        public SqlServerDesignTimeDefaultDbContextFactory()
+        {
+
+        }
         public SqlServerDesignTimeDefaultDbContextFactory(IServiceProvider provider)
         {
             _provider = provider;

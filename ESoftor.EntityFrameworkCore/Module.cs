@@ -7,6 +7,7 @@
 // -----------------------------------------------------------------------
 
 using ESoftor.EntityFrameworkCore.Infrastructure;
+using ESoftor.Framework.Infrastructure;
 using ESoftor.Framework.Module;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -18,6 +19,8 @@ namespace ESoftor.EntityFrameworkCore
         public override IServiceCollection AddModule(IServiceCollection services)
         {
             services.AddSingleton<IEntityConfigFinder, EntityConfigFinder>();
+            services.AddScoped(typeof(IRepository<,>), typeof(Repository<,>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
     }

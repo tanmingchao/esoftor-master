@@ -19,3 +19,15 @@ D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstan
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.dll
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.deps.json
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\bin\Debug\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csprojAssemblyReference.cache
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.pdb

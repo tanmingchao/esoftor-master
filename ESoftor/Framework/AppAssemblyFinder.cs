@@ -31,7 +31,10 @@ namespace ESoftor.Framework
                 "Window",
                 "mscorlib",
                 "Newtonsoft",
-                "Remotion.Linq"
+                "Remotion.Linq",
+                "Castle",
+                //"UnitTest",
+                //"ESoftor.WebApi"
             };
             //core中获取依赖对象的方式
             DependencyContext context = DependencyContext.Default;
@@ -85,7 +88,7 @@ namespace ESoftor.Framework
             List<Assembly> assemblies;
             if (fromCache) assemblies = _assemblies;
             if (_assemblies == null || _assemblies.Count() == 0)
-                assemblies = this.FindAllAssembly().ToList();
+                _assemblies = assemblies = this.FindAllAssembly().ToList();
 
             Type[] types = _assemblies.SelectMany(a => a.GetTypes())
                 .Where(expression).Distinct().ToArray();

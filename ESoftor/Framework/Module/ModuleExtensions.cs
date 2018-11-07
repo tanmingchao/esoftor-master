@@ -23,29 +23,31 @@ namespace ESoftor.Framework.Module
         private static AppAssemblyFinder _finder = new AppAssemblyFinder();
         public static IServiceCollection AddESoftor(this IServiceCollection services)
         {
-            Console.WriteLine("开始初始化module对象");
+            Console.WriteLine($"开始初始化module对象{services == null}");
             Type[] modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>());
-            _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel);
+            _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel).ToArray();
             foreach (var module in _modules)
             {
                 services = module.AddModule(services);
-                Console.WriteLine($"注册模块 [{module.GetType().Name}]");
             }
+            Console.WriteLine($"注册模块 [{_modules.Count()}] 个");
 
             return services;
         }
 
         public static void UseESoftor(this IServiceProvider provider)
         {
+            Console.WriteLine($"开始Use模块");
             if (_modules == null)
             {
                 Type[] modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>());
-                _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel);
+                _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel).ToArray();
             }
             foreach (var module in _modules)
             {
                 module.UseModule(provider);
             }
+            Console.WriteLine($"Use模块 [{_modules.Count()}] 个");
         }
     }
 }
