@@ -9,9 +9,6 @@
 using ESoftor.EntityFrameworkCore.Infrastructure;
 using ESoftor.Framework.Module;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ESoftor.EntityFrameworkCore
 {

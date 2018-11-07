@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\MySql\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -14,6 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ESoftor.EntityFrameworkCore.SqlServer\ESoftor.EntityFrameworkCore.SqlServer.csproj" />
+    <ProjectReference Include="..\ESoftor.EntityFrameworkCore\ESoftor.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ESoftor\ESoftor.csproj" />
   </ItemGroup>
 

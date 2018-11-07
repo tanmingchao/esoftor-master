@@ -48,6 +48,16 @@ namespace ESoftor.Framework
                           .WhereIf(name => !filter.Any(name.StartsWith), filterAssembly)
                           .ToList();
                 }
+                else
+                {
+                    foreach (var library in context.CompileLibraries)
+                    {
+                        var name = library.Name;
+                        if (!names.Contains(name) && !filter.Any(name.StartsWith))
+                            names.Add(name);
+                    }
+                }
+
                 return LoadFromFiles(names);
             }
             //传统方式

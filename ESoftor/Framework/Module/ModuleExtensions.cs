@@ -23,10 +23,14 @@ namespace ESoftor.Framework.Module
         private static AppAssemblyFinder _finder = new AppAssemblyFinder();
         public static IServiceCollection AddESoftor(this IServiceCollection services)
         {
+            Console.WriteLine("开始初始化module对象");
             Type[] modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>());
             _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel);
             foreach (var module in _modules)
+            {
                 services = module.AddModule(services);
+                Console.WriteLine($"注册模块 [{module.GetType().Name}]");
+            }
 
             return services;
         }

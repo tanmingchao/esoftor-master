@@ -10,7 +10,6 @@ using ESoftor.EntityFrameworkCore.Infrastructure;
 using ESoftor.Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Threading.Tasks;
 
 namespace ESoftor.EntityFrameworkCore
 {
@@ -35,7 +34,5 @@ namespace ESoftor.EntityFrameworkCore
             }
             Console.WriteLine($"成功注册实体:{entityRegisters.Length}个");
         }
-
-        
     }
 }
