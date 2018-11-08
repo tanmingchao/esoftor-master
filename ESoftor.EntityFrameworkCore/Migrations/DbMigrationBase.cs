@@ -28,6 +28,7 @@ namespace ESoftor.EntityFrameworkCore.Migrations
                 {
                     dbContext.Database.Migrate();
                     Console.WriteLine($"已挂起 {migrations.Length} 条迁移文件已执行,数据库迁移完成!");
+                    //AuthorizationSeedData();
                 }
             }
         }

@@ -36,7 +36,9 @@ namespace ESoftor.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            
             app.ApplicationServices.UseESoftor();
+            app.UseAuthentication();
             app.UseMvc();
         }
     }

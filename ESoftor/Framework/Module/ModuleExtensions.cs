@@ -29,7 +29,7 @@ namespace ESoftor.Framework.Module
             for (int i = 0; i < _modules.Count(); i++)
             {
                 services = _modules[i].AddModule(services);
-                Console.WriteLine($"\t注册模块 [{modules[i].Namespace}]");
+                Console.WriteLine($"\t注册模块 [{modules[i].FullName}]");
             }
             Console.WriteLine($"\t注册模块 [{_modules.Count()}] 个\r");
 

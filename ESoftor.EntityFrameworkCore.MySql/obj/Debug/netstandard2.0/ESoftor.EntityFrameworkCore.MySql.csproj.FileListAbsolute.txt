@@ -9,3 +9,6 @@ D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\n
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.AssemblyInfoInputs.cache
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.AssemblyInfo.cs
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.pdb

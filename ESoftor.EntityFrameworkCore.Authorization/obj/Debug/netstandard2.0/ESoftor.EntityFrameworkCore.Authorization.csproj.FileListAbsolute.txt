@@ -1,0 +1,12 @@
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.deps.json
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.csprojAssemblyReference.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\bin\Debug\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\bin\Debug\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\bin\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.Authorization\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.Authorization.pdb
