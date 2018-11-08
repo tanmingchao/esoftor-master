@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace ESoftor.WebApi.Migrations.SqlServer
@@ -45,7 +46,7 @@ namespace ESoftor.WebApi.Migrations.SqlServer
             return optionsBuilder.UseSqlServer(connectString, options =>
             {
                 options.UseRowNumberForPaging();
-                options.MigrationsAssembly("ESoftor.WebApi");
+                options.MigrationsAssembly(typeof(Startup).GetTypeInfo().Assembly.GetName().Name);
             });
         }
     }
