@@ -19,7 +19,7 @@ namespace ESoftor.EntityFrameworkCore.Migrations
 
         public TDbContext CreateDbContext(string[] args)
         {
-            Console.WriteLine($"开始创建数据迁移上下文");
+            Console.WriteLine($"创建迁移上下文\r");
             string connectString = DbConnection();
             var optionsBuilder = UseSql(new DbContextOptionsBuilder<TDbContext>(), connectString);
             var entityFinder = new EntityConfigFinder(new AppAssemblyFinder());

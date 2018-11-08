@@ -19,18 +19,19 @@ namespace ESoftor.Framework.Module
     /// </summary>
     public static class ModuleExtensions
     {
-        private static IEnumerable<ModuleBase> _modules;
+        private static List<ModuleBase> _modules;
         private static AppAssemblyFinder _finder = new AppAssemblyFinder();
         public static IServiceCollection AddESoftor(this IServiceCollection services)
         {
-            Console.WriteLine($"开始初始化module对象{services == null}");
-            Type[] modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>());
-            _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel).ToArray();
-            foreach (var module in _modules)
+            Console.WriteLine($"初始模块注入");
+            List<Type> modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>()).ToList();
+            _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel).ToList();
+            for (int i = 0; i < _modules.Count(); i++)
             {
-                services = module.AddModule(services);
+                services = _modules[i].AddModule(services);
+                Console.WriteLine($"\t注册模块 [{modules[i].Namespace}]");
             }
-            Console.WriteLine($"注册模块 [{_modules.Count()}] 个");
+            Console.WriteLine($"\t注册模块 [{_modules.Count()}] 个\r");
 
             return services;
         }
@@ -40,14 +41,14 @@ namespace ESoftor.Framework.Module
             Console.WriteLine($"开始Use模块");
             if (_modules == null)
             {
-                Type[] modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>());
-                _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel).ToArray();
+                List<Type> modules = _finder.FindTypes<ModuleBase>(type => type.IsDeriveClassFrom<ModuleBase>()).ToList();
+                _modules = modules?.Select(m => (ModuleBase)Activator.CreateInstance(m)).OrderBy(m => m.ModuleLevel).ToList();
             }
             foreach (var module in _modules)
             {
                 module.UseModule(provider);
             }
-            Console.WriteLine($"Use模块 [{_modules.Count()}] 个");
+            Console.WriteLine($"\tUse模块 [{_modules.Count()}] 个");
         }
     }
 }

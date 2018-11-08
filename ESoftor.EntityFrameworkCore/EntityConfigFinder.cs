@@ -25,7 +25,6 @@ namespace ESoftor.EntityFrameworkCore
 
         public IEntityRegister[] EntityRegisters()
         {
-            Console.WriteLine($"开始注入实体映射");
             var baseType = typeof(IEntityRegister);
             var types = _assemblyFinder.FindTypes<IEntityRegister>(type => type.IsDeriveClassFrom(baseType)).ToList();
             var entityRegisters = types?.Select(t => Activator.CreateInstance(t) as IEntityRegister).ToArray();

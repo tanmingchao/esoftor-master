@@ -25,14 +25,15 @@ namespace ESoftor.EntityFrameworkCore
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            Console.WriteLine($"注册实体映射");
             var dbContextType = GetType();
             IEntityRegister[] entityRegisters = _entityConfigFinder.EntityRegisters();
             foreach (var entityConfig in entityRegisters)
             {
                 entityConfig.RegistTo(modelBuilder);
-                Console.WriteLine($"成功注册实体:{entityConfig.EntityType}");
+                Console.WriteLine($"\t注册实体:{entityConfig.EntityType}");
             }
-            Console.WriteLine($"成功注册实体:{entityRegisters.Length}个");
+            Console.WriteLine($"\t成功注册实体:{entityRegisters.Length}个\r");
         }
     }
 }

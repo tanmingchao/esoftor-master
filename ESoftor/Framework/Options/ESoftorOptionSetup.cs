@@ -30,7 +30,7 @@ namespace ESoftor.Framework.Options
         {
             var optionRoot = _configuration.GetSection("ESoftor:DbContexts");
             var dbContexts = optionRoot.GetChildren();
-            var defaultContext = dbContexts?.FirstOrDefault();//当前默认显示用单库模式
+            var defaultContext = dbContexts?.FirstOrDefault(cf=>!string.IsNullOrWhiteSpace(cf["ConnectString"]));//当前默认显示用单库模式
 
             var dbType = defaultContext.GetSection("DatabaseType");
             var connString = defaultContext.GetSection("ConnectString");
