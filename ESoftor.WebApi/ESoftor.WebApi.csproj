@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESoftor.EntityFrameworkCore.Authorization\ESoftor.EntityFrameworkCore.Authorization.csproj" />
     <ProjectReference Include="..\ESoftor.EntityFrameworkCore.SqlServer\ESoftor.EntityFrameworkCore.SqlServer.csproj" />
     <ProjectReference Include="..\ESoftor.EntityFrameworkCore\ESoftor.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ESoftor\ESoftor.csproj" />

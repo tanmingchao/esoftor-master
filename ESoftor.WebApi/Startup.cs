@@ -38,7 +38,7 @@ namespace ESoftor.WebApi
             }
             
             app.ApplicationServices.UseESoftor();
-            app.UseAuthentication();
+            
             app.UseMvc();
         }
     }
