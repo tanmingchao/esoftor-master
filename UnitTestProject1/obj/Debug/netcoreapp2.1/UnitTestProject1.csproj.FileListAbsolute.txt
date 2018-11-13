@@ -15,7 +15,6 @@ D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESof
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.pdb
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.dll
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.pdb
-D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\appsettings.Development.json
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\appsettings.json
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.EntityFrameworkCore.dll
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.EntityFrameworkCore.SqlServer.dll
@@ -48,3 +47,9 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcorea
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.dll
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.pdb

@@ -30,7 +30,7 @@ namespace ESoftor.Framework.Options
         {
             var optionRoot = _configuration.GetSection("ESoftor:DbContexts");
             var dbContexts = optionRoot.GetChildren();
-            var defaultContext = dbContexts?.FirstOrDefault(cf=>!string.IsNullOrWhiteSpace(cf["ConnectString"]));//当前默认显示用单库模式
+            var defaultContext = dbContexts?.FirstOrDefault(cf => !string.IsNullOrWhiteSpace(cf["ConnectString"]));//当前默认显示用单库模式
 
             var dbType = defaultContext.GetSection("DatabaseType");
             var connString = defaultContext.GetSection("ConnectString");
@@ -45,6 +45,24 @@ namespace ESoftor.Framework.Options
                 ConnectString = connString.Value,
                 DatabaseType = (DatabaseType)Convert.ToInt32(dbType.Value),
                 DbContextTypeName = dbType.Value
+            };
+
+            //jwt配置
+            var jwtOptions = _configuration.GetSection("ESoftor:Jwt");
+
+            var audience = jwtOptions.GetSection("Audience");
+            var issuer = jwtOptions.GetSection("Issuer");
+            var secret = jwtOptions.GetSection("Secret");
+
+            Check.NotNullOrEmpty(audience?.Value, nameof(audience));
+            Check.NotNullOrEmpty(issuer?.Value, nameof(issuer));
+            Check.NotNullOrEmpty(secret?.Value, nameof(secret));
+
+            options.ESoftorJwtOption = new ESoftorJwtOption()
+            {
+                Audience = audience.Value,
+                Issuer = issuer.Value,
+                Secret = secret.Value
             };
         }
     }

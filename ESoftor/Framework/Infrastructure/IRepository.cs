@@ -20,7 +20,7 @@ namespace ESoftor.Framework.Infrastructure
         #region Query
         TEntity GetByKey(TKey key);
         Task<TEntity> GetByKeyAsync(TKey key);
-        IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> expression);
+        IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> expression = null);
 
         #endregion
 
@@ -40,7 +40,7 @@ namespace ESoftor.Framework.Infrastructure
         #region Remove
         void Remove(TEntity entity);
         void Remove(Expression<Func<TEntity, bool>> expression);
-        
+
         #endregion
 
     }

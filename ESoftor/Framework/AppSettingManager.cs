@@ -25,13 +25,15 @@ namespace ESoftor.Framework
 
         public static string Get(string key)
         {
-            return _configuration[key];
+            return _configuration[key] ?? _configuration.GetSection(key)?.Value;
         }
 
         public static T Get<T>(string key)
         {
             string json = Get(key);
-            return JsonConvert.DeserializeObject<T>(json);
+            if (!string.IsNullOrWhiteSpace(json))
+                return JsonConvert.DeserializeObject<T>(json);
+            return default(T);
         }
 
     }

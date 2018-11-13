@@ -57,3 +57,9 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\obj\Debug\netcoreapp
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\obj\Debug\netcoreapp2.1\ESoftor.WebApi.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Permission.pdb

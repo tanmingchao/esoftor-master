@@ -13,6 +13,13 @@ namespace ESoftor.Framework.Options
     /// </summary>
     public class ESoftorOption
     {
+        /// <summary>
+        ///     上下文对象配置
+        /// </summary>
         public ESoftorDbOption ESoftorDbOption { get; set; }
+        /// <summary>
+        ///     Jwtoken对象配置
+        /// </summary>
+        public ESoftorJwtOption ESoftorJwtOption { get; set; }
     }
 }

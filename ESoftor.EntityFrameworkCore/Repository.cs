@@ -44,9 +44,9 @@ namespace ESoftor.EntityFrameworkCore
             return await _dbSet.FindAsync(key);
         }
 
-        public IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> expression)
+        public IQueryable<TEntity> Query(Expression<Func<TEntity, bool>> expression = null)
         {
-            return _dbSet.Where(expression);
+            return expression != null ? _dbSet.Where(expression) : _dbSet.AsQueryable();
         }
 
         #endregion

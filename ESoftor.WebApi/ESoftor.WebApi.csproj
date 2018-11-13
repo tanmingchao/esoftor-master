@@ -12,9 +12,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ESoftor.AspNetCore\ESoftor.AspNetCore.csproj" />
+    <ProjectReference Include="..\ESoftor.Core.Permission\ESoftor.Core.Permission.csproj" />
     <ProjectReference Include="..\ESoftor.EntityFrameworkCore.SqlServer\ESoftor.EntityFrameworkCore.SqlServer.csproj" />
     <ProjectReference Include="..\ESoftor.EntityFrameworkCore\ESoftor.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ESoftor\ESoftor.csproj" />
