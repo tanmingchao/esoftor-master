@@ -7355,23 +7355,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\m1835\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.Core.Permission\\ESoftor.Core.Permission.csproj",
+      "projectUniqueName": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.Core.Permission\\ESoftor.Core.Permission.csproj",
       "projectName": "ESoftor.Core.Permission",
-      "projectPath": "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.Core.Permission\\ESoftor.Core.Permission.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.Core.Permission\\obj\\",
+      "projectPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.Core.Permission\\ESoftor.Core.Permission.csproj",
+      "packagesPath": "C:\\Users\\m1835\\.nuget\\packages\\",
+      "outputPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.Core.Permission\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\m1835\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7384,14 +7384,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj": {
-              "projectPath": "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj"
+            "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.EntityFrameworkCore\\ESoftor.EntityFrameworkCore.csproj"
             },
-            "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.Permission\\ESoftor.Permission.csproj": {
-              "projectPath": "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor.Permission\\ESoftor.Permission.csproj"
+            "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.Permission\\ESoftor.Permission.csproj": {
+              "projectPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor.Permission\\ESoftor.Permission.csproj"
             },
-            "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor\\ESoftor.csproj": {
-              "projectPath": "D:\\WORKSPACE\\GITHUB\\esoftor-master\\ESoftor\\ESoftor.csproj"
+            "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor\\ESoftor.csproj": {
+              "projectPath": "D:\\WORKSPACE\\GITHUB\\RESOURCES\\esoftor-master\\ESoftor\\ESoftor.csproj"
             }
           }
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using ESoftor.Framework.Module;
@@ -27,6 +28,14 @@ namespace ESoftor.WebApi
         {
             services.AddESoftor();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "esoftor web api", Version = "v1" });
+                Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "*.xml").ToList().ForEach(file =>
+                {
+                    c.IncludeXmlComments(file);
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,8 +47,15 @@ namespace ESoftor.WebApi
             }
             
             app.ApplicationServices.UseESoftor();
-            
+            app.UseAuthentication();
+            app.UseStaticFiles();
+           
+            app.UseSwagger().UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "esoftor web api V1");
+            });
             app.UseMvc();
+
         }
     }
 }

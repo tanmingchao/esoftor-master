@@ -7,6 +7,7 @@
 // -----------------------------------------------------------------------
 
 using ESoftor.Core.Permission.Identity.Entity;
+using ESoftor.Data;
 using ESoftor.EntityFrameworkCore;
 using ESoftor.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,7 @@ namespace ESoftor.Core.Permission.Identity.EntityConfiguration
             builder.HasIndex(x => x.Name).HasName("RoleNameIndex").IsUnique();
             builder.HasMany<RoleClaim>().WithOne().HasForeignKey(x => x.RoleId).IsRequired();
             builder.HasMany<UserRole>().WithOne().HasForeignKey(x => x.RoleId).IsRequired();
+            builder.HasData(new Role() { ID = CombGuid.NewGuid(), Name = "系统管理员", Remark = "系统最高权限管理角色", IsAdmin = true, IsDefault = false, IsLocked = false });
         }
     }
 }

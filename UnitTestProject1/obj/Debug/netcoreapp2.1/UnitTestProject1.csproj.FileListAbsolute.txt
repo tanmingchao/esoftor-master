@@ -25,7 +25,6 @@ D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESof
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\appsettings.Development.json
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\appsettings.json
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.deps.json
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\UnitTestProject1.runtimeconfig.json
@@ -53,3 +52,10 @@ D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESof
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.pdb
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.dll
 D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.WebApi.xml
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.pdb

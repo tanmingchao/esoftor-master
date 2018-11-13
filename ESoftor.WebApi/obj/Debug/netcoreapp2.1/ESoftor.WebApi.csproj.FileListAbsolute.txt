@@ -63,3 +63,10 @@ D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESofto
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Permission.dll
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.pdb
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.AspNetCore.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Core.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\bin\Debug\netcoreapp2.1\ESoftor.WebApi.xml

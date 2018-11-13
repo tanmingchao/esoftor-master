@@ -44,3 +44,4 @@ D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.Asse
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.dll
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.csprojAssemblyReference.cache

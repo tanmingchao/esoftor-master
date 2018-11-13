@@ -16,6 +16,7 @@ namespace ESoftor.WebApi.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [Description("Identity Controller")]
     public class IdentityController : ControllerBase
     {
 
@@ -59,7 +60,7 @@ namespace ESoftor.WebApi.Controllers
         /// <returns></returns>
         [HttpPost]
         [Description("jwt登录")]
-        public async Task<AjaxResult> Jwtoken(LoginDto dto)
+        public async Task<AjaxResult> Jwtoken([FromBody]LoginDto dto)
         {
             Check.NotNull(dto, nameof(dto));
 

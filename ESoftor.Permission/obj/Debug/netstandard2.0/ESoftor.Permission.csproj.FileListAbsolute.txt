@@ -10,3 +10,15 @@ D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\E
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.dll
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.csprojAssemblyReference.cache
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\bin\Debug\netstandard2.0\ESoftor.Permission.deps.json
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\bin\Debug\netstandard2.0\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\bin\Debug\netstandard2.0\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\bin\Debug\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\bin\Debug\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Permission\obj\Debug\netstandard2.0\ESoftor.Permission.csproj.CopyComplete

@@ -4,6 +4,14 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.WebApi\ESoftor.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ValuesController.cs" />
+  </ItemGroup>
+
   <ItemGroup>
     <Folder Include="Migrations\MySql\" />
     <Folder Include="wwwroot\" />
@@ -13,6 +21,7 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +30,12 @@
     <ProjectReference Include="..\ESoftor.EntityFrameworkCore.SqlServer\ESoftor.EntityFrameworkCore.SqlServer.csproj" />
     <ProjectReference Include="..\ESoftor.EntityFrameworkCore\ESoftor.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ESoftor\ESoftor.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ESoftor.WebApi.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

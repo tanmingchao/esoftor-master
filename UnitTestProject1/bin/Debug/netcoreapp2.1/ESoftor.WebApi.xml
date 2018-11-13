@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ESoftor.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ESoftor.WebApi.Controllers.IdentityController.Login(ESoftor.Core.Permission.Identity.Dto.LoginDto)">
+            <summary>
+                登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ESoftor.WebApi.Controllers.IdentityController.Jwtoken(ESoftor.Core.Permission.Identity.Dto.LoginDto)">
+            <summary>
+                Jwt登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
