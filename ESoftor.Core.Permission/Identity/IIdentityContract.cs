@@ -9,6 +9,8 @@
 using ESoftor.Core.Permission.Identity.Dto;
 using ESoftor.Core.Permission.Identity.Entity;
 using ESoftor.Data;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 
 namespace ESoftor.Core.Permission.Identity
@@ -30,7 +32,7 @@ namespace ESoftor.Core.Permission.Identity
         /// </summary>
         /// <param name="dto">登录信息</param>
         /// <returns>业务操作结果</returns>
-        Task<OperationResult<User>> Login(LoginDto dto);
+        Task<OperationResult<string>> Login(LoginDto dto);
 
         /// <summary>
         /// Jwt登录
@@ -47,5 +49,11 @@ namespace ESoftor.Core.Permission.Identity
         Task<OperationResult> Logout(int userId);
 
         #endregion
+
+        #region 授权
+        Task<AuthenticationProperties> OAuth2(string provider, string redirectUrl);
+        Task<bool> OAuth2Callback(string returnUrl = null, string remoteError = null);
+        #endregion
+
     }
 }

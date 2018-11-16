@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8504d02e4cea914e0be6961150fb716693cf9a6d"
+    "signature": "a558a725376f661e8b4d6bc0d7c24e23db71d3d4"
   },
   "compilationOptions": {
     "defines": [
@@ -499,6 +499,20 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.18207"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyModel/2.1.0": {
@@ -1161,6 +1175,7 @@
       "ESoftor/1.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
@@ -1394,7 +1409,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.4",
           "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
-          "Microsoft.Extensions.Caching.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Caching.Memory": "2.1.1",
           "Microsoft.Extensions.Caching.SqlServer": "2.1.1",
           "Microsoft.Extensions.Configuration": "2.1.1",
@@ -2119,7 +2134,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection": "2.1.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
-          "Microsoft.Extensions.Caching.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1"
         },
@@ -2330,18 +2345,9 @@
         },
         "compileOnly": true
       },
-      "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.1.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
-        },
-        "compileOnly": true
-      },
       "Microsoft.Extensions.Caching.Memory/2.1.1": {
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1"
         },
@@ -2352,7 +2358,7 @@
       },
       "Microsoft.Extensions.Caching.SqlServer/2.1.1": {
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Options": "2.1.1",
           "System.Data.SqlClient": "4.5.1"
         },
@@ -4038,6 +4044,13 @@
       "path": "microsoft.entityframeworkcore.sqlserver/2.1.4",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.2.1.4.nupkg.sha512"
     },
+    "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1grj/VyEAX2DSxIDyTADPfXnESj33RNvK0Lo1ob1awZA9JDMzmOsS3DC5nOOp74Kcb/4VfcOVFe8YG1ySs156w==",
+      "path": "microsoft.extensions.caching.abstractions/2.1.2",
+      "hashPath": "microsoft.extensions.caching.abstractions.2.1.2.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyModel/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -4921,13 +4934,6 @@
       "sha512": "sha512-OYHhKbFNJCSHpkLAKI9yqTx3+SZ7aHKZaCP+G5ctlL/rZm5Y37Ke00abUhp5mFEJlvEueYfOGDx/GjltEs210A==",
       "path": "microsoft.entityframeworkcore.tools/2.1.1",
       "hashPath": "microsoft.entityframeworkcore.tools.2.1.1.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gcPRTtchou4pIEdLYhh9xoBDjwCaCLiTHJaFN2IWJCP+TGJcIHQYblPMftw6fajHER9ZrvPO5RYZUyLmH1eNIA==",
-      "path": "microsoft.extensions.caching.abstractions/2.1.1",
-      "hashPath": "microsoft.extensions.caching.abstractions.2.1.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Memory/2.1.1": {
       "type": "package",

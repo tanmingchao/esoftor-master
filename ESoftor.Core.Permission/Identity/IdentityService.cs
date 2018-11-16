@@ -11,8 +11,10 @@ using ESoftor.Core.Permission.Identity.Entity;
 using ESoftor.Data;
 using ESoftor.Extensions;
 using ESoftor.Framework.Infrastructure;
+using ESoftor.Json;
 using ESoftor.Permission.Identity;
 using ESoftor.Permission.Identity.JwtBearer;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using System;
@@ -43,16 +45,22 @@ namespace ESoftor.Core.Permission.Identity
         private readonly ILogger<IdentityService> _logger;
         #endregion
 
+        #region 认证
         /// <summary>
         ///     登录
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>
-        public async Task<OperationResult<User>> Login(LoginDto dto)
+        public async Task<OperationResult<string>> Login(LoginDto dto)
         {
             var result = await _Login(dto);
+            if (!result.Successed)
+            {
+                return new OperationResult<string>(OperationResultType.Error, result.Message);
+            }
             await _signInManager.SignInAsync(result.Data, dto.Remember);
-            return new OperationResult<User>(OperationResultType.Success, "登录成功", result.Data);
+            var returnResult = new OperationResult<string>(OperationResultType.Success, "登录成功");
+            return await Task.FromResult(returnResult);
         }
 
         public async Task<OperationResult<string>> JwtLogin(LoginDto dto)
@@ -75,7 +83,8 @@ namespace ESoftor.Core.Permission.Identity
 
             //TODO 在线用户缓存
 
-            return new OperationResult<string>(OperationResultType.Success, "登录成功", token);
+            var returnResult = new OperationResult<string>(OperationResultType.Success, "登录成功", token);
+            return await Task.FromResult(returnResult);
 
         }
 
@@ -103,7 +112,6 @@ namespace ESoftor.Core.Permission.Identity
             //TODO 注册成功之后的其它操作,如,创建用户详情,创建默认角色及权限信息,and so on;但是一定要记住 uow的commit();
             return result.ToOperationResult(user);
         }
-
 
         #region private
 
@@ -176,5 +184,38 @@ namespace ESoftor.Core.Permission.Identity
         }
 
         #endregion
+        #endregion
+
+        #region 授权
+        public async Task<AuthenticationProperties> OAuth2(string provider, string redirectUrl)
+        {
+            AuthenticationProperties properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+            return await Task.FromResult(properties);
+        }
+
+        public async Task<bool> OAuth2Callback(string returnUrl = null, string remoteError = null)
+        {
+            if (remoteError != null)
+            {
+                _logger.LogError($"第三方登录错误：{remoteError}");
+                return await Task.FromResult(false);//第三方授权错误
+            }
+
+            ExternalLoginInfo info = await _signInManager.GetExternalLoginInfoAsync();
+            if (info == null)
+                return await Task.FromResult(false); ;
+
+            var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, false, true);
+            _logger.LogWarning($"SignInResult:{result.ToJsonString()}");
+            if (result.Succeeded)
+            {
+                _logger.LogInformation($"用户“{info.Principal.Identity.Name}”通过 {info.ProviderDisplayName} OAuth2登录成功");
+                return await Task.FromResult(true);
+            }
+            return await Task.FromResult(false);
+        }
+
+        #endregion
+
     }
 }

@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\MySql\" />
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>

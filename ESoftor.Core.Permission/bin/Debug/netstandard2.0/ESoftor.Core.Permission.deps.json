@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "6cd006f20b00eedd09e8a0cf6c8c52aa9f78a566"
+    "signature": "4c1c5d4931229205fddc36c1312e09b4f0fee6c8"
   },
   "compilationOptions": {},
   "targets": {
@@ -356,20 +356,20 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
+      "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.1.1"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.18157"
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.18207"
           }
         }
       },
       "Microsoft.Extensions.Caching.Memory/2.1.1": {
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1"
         },
@@ -1807,6 +1807,7 @@
       "ESoftor/1.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
@@ -2039,12 +2040,12 @@
       "path": "microsoft.entityframeworkcore.relational/2.1.4",
       "hashPath": "microsoft.entityframeworkcore.relational.2.1.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Abstractions/2.1.1": {
+    "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gcPRTtchou4pIEdLYhh9xoBDjwCaCLiTHJaFN2IWJCP+TGJcIHQYblPMftw6fajHER9ZrvPO5RYZUyLmH1eNIA==",
-      "path": "microsoft.extensions.caching.abstractions/2.1.1",
-      "hashPath": "microsoft.extensions.caching.abstractions.2.1.1.nupkg.sha512"
+      "sha512": "sha512-1grj/VyEAX2DSxIDyTADPfXnESj33RNvK0Lo1ob1awZA9JDMzmOsS3DC5nOOp74Kcb/4VfcOVFe8YG1ySs156w==",
+      "path": "microsoft.extensions.caching.abstractions/2.1.2",
+      "hashPath": "microsoft.extensions.caching.abstractions.2.1.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Memory/2.1.1": {
       "type": "package",

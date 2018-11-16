@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="OAuth2\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="2.1.2" />

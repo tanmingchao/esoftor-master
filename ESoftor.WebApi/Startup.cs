@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using ESoftor.Framework.Module;
+using ESoftor.Permission.OAuth2.WeChat;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +28,11 @@ namespace ESoftor.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddESoftor();
+            services.AddAuthentication().AddWeixinAuthentication(options =>
+            {
+                options.ClientId = Configuration["Authentication:WeChat:AppId"];
+                options.ClientSecret = Configuration["Authentication:WeChat:AppKey"];
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSwaggerGen(c =>
             {
@@ -45,11 +51,11 @@ namespace ESoftor.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
             app.ApplicationServices.UseESoftor();
-            app.UseAuthentication();
             app.UseStaticFiles();
-           
+            app.UseAuthentication();
+
             app.UseSwagger().UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "esoftor web api V1");

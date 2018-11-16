@@ -61,7 +61,7 @@ namespace ESoftor.EntityFrameworkCore
             if (!repositorys.ContainsKey(entityType.Name))
             {
                 var baseType = typeof(Repository<,>);
-                var repositoryInstance = Activator.CreateInstance(baseType.MakeGenericType(entityType), DbContext);
+                var repositoryInstance = Activator.CreateInstance(baseType.MakeGenericType(entityType, typeof(TKey)), this);
                 repositorys.Add(entityType.Name, repositoryInstance);
             }
 
@@ -81,13 +81,16 @@ namespace ESoftor.EntityFrameworkCore
             {
                 result = DbContext.SaveChanges();
                 if (_dbTransaction != null)
+                {
                     _dbTransaction.Commit();
+                }
             }
             catch (Exception ex)
             {
                 result = -1;
                 CleanChanges(DbContext);
-                _dbTransaction.Rollback();
+                if (_dbTransaction != null)
+                    _dbTransaction.Rollback();
                 throw new Exception($"Commit 异常：{ex.InnerException}/r{ ex.Message}");
             }
             return result;
@@ -100,13 +103,17 @@ namespace ESoftor.EntityFrameworkCore
             {
                 result = await DbContext.SaveChangesAsync();
                 if (_dbTransaction != null)
+                {
                     _dbTransaction.Commit();
+                }
+
             }
             catch (Exception ex)
             {
                 result = -1;
                 CleanChanges(DbContext);
-                _dbTransaction.Rollback();
+                if (_dbTransaction != null)
+                    _dbTransaction.Rollback();
                 throw new Exception($"Commit 异常：{ex.InnerException}/r{ ex.Message}");
             }
             return await Task.FromResult(result);
@@ -160,9 +167,9 @@ namespace ESoftor.EntityFrameworkCore
         #region override
         public void Dispose()
         {
-            _dbTransaction.Dispose();
+            _dbTransaction?.Dispose();
             DbContext.Dispose();
-            GC.SuppressFinalize(this);
+            //GC.SuppressFinalize(this);
         }
         #endregion
     }

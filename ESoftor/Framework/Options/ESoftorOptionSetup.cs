@@ -44,7 +44,7 @@ namespace ESoftor.Framework.Options
             {
                 ConnectString = connString.Value,
                 DatabaseType = (DatabaseType)Convert.ToInt32(dbType.Value),
-                DbContextTypeName = dbType.Value
+                DbContextTypeName = dbTypeName.Value
             };
 
             //jwt配置

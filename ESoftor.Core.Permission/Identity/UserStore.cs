@@ -175,6 +175,8 @@ namespace ESoftor.Core.Permission.Identity
             ThrowIfDisposed();
             Check.NotNull(user, nameof(user));
 
+            _unitOfWork.BeginTransaction();
+
             await _userRepository.InsertAsync(user);
 
             //系统的第一个用户，自动成为超级管理员

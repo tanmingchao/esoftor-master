@@ -4,6 +4,13 @@
         <name>ESoftor.WebApi</name>
     </assembly>
     <members>
+        <member name="M:ESoftor.WebApi.Controllers.IdentityController.Register(ESoftor.Core.Permission.Identity.Dto.RegisterDto)">
+            <summary>
+                注册
+            </summary>
+            <param name="dto">注册参数模型</param>
+            <returns></returns>
+        </member>
         <member name="M:ESoftor.WebApi.Controllers.IdentityController.Login(ESoftor.Core.Permission.Identity.Dto.LoginDto)">
             <summary>
                 登录
@@ -16,6 +23,28 @@
                 Jwt登录
             </summary>
             <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ESoftor.WebApi.Controllers.IdentityController.OAuth2(System.String,System.String)">
+            <summary>
+                OAuth2登录
+            </summary>
+            <param name="provider">第三方登录提供器</param>
+            <param name="returnUrl">回调地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:ESoftor.WebApi.Controllers.IdentityController.OAuth2Callback(System.String,System.String)">
+            <summary>
+                OAuth2登录回调
+            </summary>
+            <param name="returnUrl">回调地址</param>
+            <param name="remoteError">第三方登录错误提示</param>
+            <returns></returns>
+        </member>
+        <member name="M:ESoftor.WebApi.Controllers.IdentityController.CheckSignature">
+            <summary>
+                微信测试token验证地址
+            </summary>
             <returns></returns>
         </member>
     </members>

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c451ba352f771d6555c1e86b5d50088e2a4dccf5"
+    "signature": "281e46006fa0620762b5337488e74f2067063608"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "ESoftor/1.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
+          "Microsoft.Extensions.Caching.Abstractions": "2.1.2",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
           "Microsoft.Extensions.Configuration.Json": "2.1.1",
@@ -48,6 +49,17 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {
             "assemblyVersion": "2.1.0.0",
             "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.18207"
           }
         }
       },
@@ -578,6 +590,13 @@
       "sha512": "sha512-wkCXkBS0q+5hsbeikjfsHCGP3nNe1L1MrDEBPCBKm+4UH8nXqHLxDZuBrTYaVY85CGIx2y1qW90nO6b+ORAfrA==",
       "path": "microsoft.dotnet.platformabstractions/2.1.0",
       "hashPath": "microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1grj/VyEAX2DSxIDyTADPfXnESj33RNvK0Lo1ob1awZA9JDMzmOsS3DC5nOOp74Kcb/4VfcOVFe8YG1ySs156w==",
+      "path": "microsoft.extensions.caching.abstractions/2.1.2",
+      "hashPath": "microsoft.extensions.caching.abstractions.2.1.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/2.1.1": {
       "type": "package",

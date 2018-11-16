@@ -8,6 +8,7 @@
 
 using ESoftor.Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -91,12 +92,30 @@ namespace ESoftor.EntityFrameworkCore
         #region remove
         public void Update(TEntity entity)
         {
-            _dbSet.Update(entity);
+            try
+            {
+                EntityEntry<TEntity> entry = _dbContext.Entry<TEntity>(entity);
+                if (entry.State == EntityState.Detached)
+                {
+                    _dbSet.Attach(entity);
+                    entry.State = EntityState.Modified;
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                TEntity oldEntity = _dbSet.Find(entity.ID);
+                _dbContext.Entry(oldEntity).CurrentValues.SetValues(entity);
+            }
+            //_dbSet.Update(entity);
         }
 
         public void Update(IEnumerable<TEntity> entities)
         {
-            _dbSet.UpdateRange(entities);
+            //_dbSet.UpdateRange(entities);
+            foreach (var entity in entities)
+            {
+                Update(entity);
+            }
         }
 
         #endregion
