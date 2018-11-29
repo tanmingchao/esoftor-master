@@ -31,3 +31,6 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Deb
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\publish\dotnet\workspace\ESoftor.EntityFrameworkCore.deps.json
+D:\publish\dotnet\workspace\ESoftor.EntityFrameworkCore.dll
+D:\publish\dotnet\workspace\ESoftor.EntityFrameworkCore.pdb

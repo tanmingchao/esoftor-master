@@ -22,3 +22,6 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.AspNetCore\obj\Debug\netsta
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.AspNetCore\obj\Debug\netstandard2.0\ESoftor.AspNetCore.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.AspNetCore\obj\Debug\netstandard2.0\ESoftor.AspNetCore.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.AspNetCore\obj\Debug\netstandard2.0\ESoftor.AspNetCore.pdb
+D:\publish\dotnet\workspace\ESoftor.AspNetCore.deps.json
+D:\publish\dotnet\workspace\ESoftor.AspNetCore.dll
+D:\publish\dotnet\workspace\ESoftor.AspNetCore.pdb

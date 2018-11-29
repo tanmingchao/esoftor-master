@@ -45,3 +45,6 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ES
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor\obj\Debug\netstandard2.0\ESoftor.pdb
+D:\publish\dotnet\workspace\ESoftor.deps.json
+D:\publish\dotnet\workspace\ESoftor.dll
+D:\publish\dotnet\workspace\ESoftor.pdb

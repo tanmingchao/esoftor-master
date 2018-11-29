@@ -1,0 +1,16 @@
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\ESoftor.deps.json
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\Microsoft.Extensions.Options.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\System.ComponentModel.Annotations.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\Microsoft.Extensions.Options.xml
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\bin\Release\netstandard2.0\System.ComponentModel.Annotations.xml
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.Properties.Resources.resources
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.csproj.GenerateResource.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor\obj\Release\netstandard2.0\ESoftor.csprojAssemblyReference.cache

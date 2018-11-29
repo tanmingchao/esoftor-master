@@ -1,0 +1,14 @@
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.deps.json
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\bin\Release\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.csprojAssemblyReference.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.EntityFrameworkCore.SqlServer\obj\Release\netstandard2.0\ESoftor.EntityFrameworkCore.SqlServer.pdb

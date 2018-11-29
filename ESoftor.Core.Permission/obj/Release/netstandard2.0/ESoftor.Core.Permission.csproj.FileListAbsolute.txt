@@ -1,0 +1,16 @@
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.Core.Permission.deps.json
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.Core.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.Core.Permission.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.EntityFrameworkCore.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.Permission.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\bin\Release\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.csprojAssemblyReference.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.Core.Permission\obj\Release\netstandard2.0\ESoftor.Core.Permission.pdb

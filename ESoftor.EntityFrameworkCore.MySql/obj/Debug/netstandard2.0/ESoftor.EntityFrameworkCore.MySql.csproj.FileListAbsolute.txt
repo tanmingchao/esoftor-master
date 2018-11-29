@@ -26,3 +26,6 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore.MySql\o
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.EntityFrameworkCore.MySql\obj\Debug\netstandard2.0\ESoftor.EntityFrameworkCore.MySql.pdb
+D:\publish\dotnet\workspace\ESoftor.EntityFrameworkCore.MySql.deps.json
+D:\publish\dotnet\workspace\ESoftor.EntityFrameworkCore.MySql.dll
+D:\publish\dotnet\workspace\ESoftor.EntityFrameworkCore.MySql.pdb

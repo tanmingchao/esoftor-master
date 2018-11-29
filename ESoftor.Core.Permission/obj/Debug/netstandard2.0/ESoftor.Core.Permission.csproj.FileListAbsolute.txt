@@ -30,3 +30,6 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Core.Permission\obj\Debug\n
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Core.Permission\obj\Debug\netstandard2.0\ESoftor.Core.Permission.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Core.Permission\obj\Debug\netstandard2.0\ESoftor.Core.Permission.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\ESoftor.Core.Permission\obj\Debug\netstandard2.0\ESoftor.Core.Permission.pdb
+D:\publish\dotnet\workspace\ESoftor.Core.Permission.deps.json
+D:\publish\dotnet\workspace\ESoftor.Core.Permission.dll
+D:\publish\dotnet\workspace\ESoftor.Core.Permission.pdb

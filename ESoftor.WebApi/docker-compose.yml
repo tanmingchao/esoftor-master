@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+
+  esoftor.api:
+    image: esoftor.api:v1.0
+    environment:
+      - ASPNETCORE_URLS=http://0.0.0.0:60000
+      - ConnectionString=Server=sql.data;User=sa;Password=520Tmc1314!;Database=esoftor.source.novel2;    
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "8089:60000"
+    volumes: 
+      - ./:/usr/local/src/esoftor-api-master
+    container_name: esoftor.api
+    depends_on:
+      - sql.data
+
+  sql.data:
+    image: microsoft/mssql-server-linux:2017-latest
+    environment:
+      - SA_PASSWORD=520Tmc1314!
+      - ACCEPT_EULA=Y
+    ports:
+      - "14333:1433"
+      
+      
+      
+        # webmvc:
+    # image: esoftor:v1.0
+    # environment:
+      # - ASPNETCORE_URLS=http://0.0.0.0:60000
+    # build:
+      # context: ./netcoreapp2.1
+      # dockerfile: Dockerfile
+    # ports: 
+    # - "8088:60000"
+    # volumes: 
+      # - ./WebMVC/bin/pub/:/app
+    # container_name: webmvc
+    # depends_on:
+      # - todo.api

@@ -28,15 +28,15 @@ namespace ESoftor.Framework.Options
 
         public void Configure(ESoftorOption options)
         {
-            var optionRoot = _configuration.GetSection("ESoftor:DbContexts");
-            var dbContexts = optionRoot.GetChildren();
-            var defaultContext = dbContexts?.FirstOrDefault(cf => !string.IsNullOrWhiteSpace(cf["ConnectString"]));//当前默认显示用单库模式
+            var defaultContext = _configuration.GetSection("ESoftor:DbContexts:Default");
 
             var dbType = defaultContext.GetSection("DatabaseType");
             var connString = defaultContext.GetSection("ConnectString");
             var dbTypeName = defaultContext.GetSection("DbContextTypeName");
 
-            Check.NotNullOrEmpty(dbType?.Value, nameof(dbType));
+            Console.WriteLine(_configuration.GetSection("ESoftor:DbContexts:Default:DatabaseType")?.Key ?? "dbType对象值为空了");
+
+            Check.NotNull(dbType?.Value, nameof(dbType));
             Check.NotNullOrEmpty(connString?.Value, nameof(connString));
             Check.NotNullOrEmpty(dbTypeName?.Value, nameof(dbTypeName));
 

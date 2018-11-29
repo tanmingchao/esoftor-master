@@ -59,3 +59,15 @@ D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcorea
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.csproj.CopyComplete
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.dll
 D:\WORKSPACE\GITHUB\RESOURCES\esoftor-master\UnitTestProject1\obj\Debug\netcoreapp2.1\UnitTestProject1.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\UnitTestProject1\bin\Debug\netcoreapp2.1\ESoftor.WebApi.xml
+D:\publish\dotnet\workspace\appsettings.Development.json
+D:\publish\dotnet\workspace\appsettings.json
+D:\publish\dotnet\workspace\ESoftor.WebApi.xml
+D:\publish\dotnet\workspace\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\publish\dotnet\workspace\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\publish\dotnet\workspace\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\publish\dotnet\workspace\UnitTestProject1.deps.json
+D:\publish\dotnet\workspace\UnitTestProject1.runtimeconfig.json
+D:\publish\dotnet\workspace\UnitTestProject1.runtimeconfig.dev.json
+D:\publish\dotnet\workspace\UnitTestProject1.dll
+D:\publish\dotnet\workspace\UnitTestProject1.pdb

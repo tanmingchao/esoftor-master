@@ -1,0 +1,12 @@
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\bin\Release\netstandard2.0\ESoftor.AspNetCore.deps.json
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\bin\Release\netstandard2.0\ESoftor.AspNetCore.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\bin\Release\netstandard2.0\ESoftor.AspNetCore.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\bin\Release\netstandard2.0\ESoftor.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\bin\Release\netstandard2.0\ESoftor.pdb
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.csprojAssemblyReference.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.AssemblyInfoInputs.cache
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.AssemblyInfo.cs
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.csproj.CopyComplete
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.dll
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.AspNetCore\obj\Release\netstandard2.0\ESoftor.AspNetCore.pdb
