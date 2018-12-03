@@ -2,7 +2,8 @@
 FROM microsoft/dotnet
 
 #指定docker的工作目录为 esoftor-master文件夹,也就是容器的默认的文件夹
-WORKDIR /usr/local/src/esoftor-api-master
+# WORKDIR /usr/local/src/esoftor-api-master
+WORKDIR /esoftor-api-master
 
 # docker对外暴露的端口
 EXPOSE 60000

@@ -13,7 +13,7 @@ services:
     ports: 
       - "8089:60000"
     volumes: 
-      - ./:/usr/local/src/esoftor-api-master
+      - ./:./esoftor-api-master
     container_name: esoftor.api
     depends_on:
       - sql.data
