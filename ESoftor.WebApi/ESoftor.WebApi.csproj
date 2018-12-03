@@ -42,10 +42,10 @@
 
   <ItemGroup>
     <None Update="docker-compose.yml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Dockerfile">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="ESoftor.WebApi.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
