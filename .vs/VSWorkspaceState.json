@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ESoftor.WebApi",
     "\\ESoftor.WebApi\\bin",
-    "\\ESoftor.WebApi\\bin\\Debug\\netcoreapp2.1",
-    "\\ESoftor.WebApi\\Migrations"
+    "\\ESoftor.WebApi\\Migrations",
+    "\\ESoftor.WebApi\\Properties",
+    "\\ESoftor\\Framework",
+    "\\ESoftor\\Framework\\Options"
   ],
-  "SelectedNode": "\\ESoftor.WebApi\\tempkey.rsa",
   "PreviewInSolutionExplorer": false
 }

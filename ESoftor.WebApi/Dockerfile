@@ -12,5 +12,5 @@ EXPOSE 60000
 # COPY . /usr/local/src/esoftor-api-master
 
 #CMD dotnet ESoftor.WebApi.dll 这里自行百度 CMD和ENTRYPOINT的区别
-ENTRYPOINT ["dotnet", "ESoftor.WebApi.dll"]
-
+# ENTRYPOINT ["dotnet", "ESoftor.WebApi.dll"]
+CMD dotnet ESoftor.WebApi.dll
