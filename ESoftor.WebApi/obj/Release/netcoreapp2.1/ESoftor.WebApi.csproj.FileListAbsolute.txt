@@ -28,3 +28,5 @@ D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\obj\Release\netcoreapp2.1\ESof
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\obj\Release\netcoreapp2.1\ESoftor.WebApi.pdb
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Release\netcoreapp2.1\appsettings.Development.json
 D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Release\netcoreapp2.1\appsettings.json
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Release\netcoreapp2.1\docker-compose.yml
+D:\WORKSPACE\GITHUB\esoftor-master\ESoftor.WebApi\bin\Release\netcoreapp2.1\Dockerfile

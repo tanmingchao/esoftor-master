@@ -9,7 +9,7 @@ WORKDIR /usr/local/src/esoftor-api-master
 EXPOSE 60000
 
 # 将当前文件夹下的所有文件全部复制到工作目录(如果是在docker进行持续性继承,该行注释掉),如果单纯的只是迁移到docker,这里需要取消注释
-# COPY . /usr/local/src/esoftor-api-master
+COPY . /usr/local/src/esoftor-api-master
 
 #CMD dotnet ESoftor.WebApi.dll 这里自行百度 CMD和ENTRYPOINT的区别
 # ENTRYPOINT ["dotnet", "ESoftor.WebApi.dll"]
