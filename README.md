@@ -4,3 +4,4 @@
 迁移文件已经生成,可以直接运行即可跑起来.
 
 结合docker发布可以参考这里: https://www.cnblogs.com/Tmc-Blog/p/10026488.html
+结合docker发布+jenkins的持续集成 可以参考这里 https://www.cnblogs.com/Tmc-Blog/p/10064375.html
