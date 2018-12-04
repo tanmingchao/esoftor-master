@@ -8,12 +8,12 @@ services:
       - ASPNETCORE_URLS=http://0.0.0.0:60000
       - ConnectionString=Server=sql.data;User=sa;Password=520Tmc1314!;Database=esoftor.source.novel2;    
     build:
-      context: ./usr/local/src/esoftor-api-master
+      context: ./
       dockerfile: Dockerfile
     ports: 
       - "8089:60000"
     volumes: 
-      - /usr/local/src/esoftor-api-master:/usr/local/src/esoftor-api-master
+      - ./:/usr/local/src/esoftor-api-master
     container_name: esoftor.api
     depends_on:
       - sql.data
